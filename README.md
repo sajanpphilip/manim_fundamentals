@@ -5,6 +5,7 @@ Let's start learning about MObjects. Getting a grasp on MObjects will help you t
 
 ### 1. Lines
 #### Example 1
+
 ```
 %%manim -qm -v WARNING LineExample1
 
@@ -17,6 +18,7 @@ class LineExample1(Scene):
 ![LineExample1](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b68b6967-39f1-4bab-9108-d8f3c684f441)
 
 #### Example 2
+
 ```
 %%manim -qm -v WARNING LineExample2
 
@@ -43,6 +45,21 @@ class LineExample3(Scene):
       self.add(dot1,dot2,line)
 ```
 ![LineExample3](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/5cdab846-394f-4ef9-8405-91a865306b88)
+
+#### Exampel 4
+
+```
+%%manim -qm -v WARNING LineExample5
+
+class LineExample5(Scene):
+    def construct(self):
+
+      circle1=Circle(radius=1).move_to(2*RIGHT)
+      circle2=Circle(radius=2).move_to(2*LEFT)
+      line=Line(circle1.get_center(),circle2.get_center())
+      self.add(circle1,circle2,line)
+
+````
 
 
 #### 1.1 Arrow
