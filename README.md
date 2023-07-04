@@ -26,6 +26,8 @@ class LineExample2(Scene):
       line1=Line([0,0,0], [2,2,2])
       self.add(line1)
 ```
+![LineExample2](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/7e5cb674-9814-453e-9c4c-99f7b7b38442)
+
 
 #### 1.1 Arrow
 #### 1.2 Double Arrow
