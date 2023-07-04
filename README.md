@@ -29,6 +29,22 @@ class LineExample2(Scene):
 ![LineExample2](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/7e5cb674-9814-453e-9c4c-99f7b7b38442)
 
 
+#### Example 3
+
+```
+%%manim -qm -v WARNING LineExample3
+
+class LineExample3(Scene):
+    def construct(self):
+
+      dot1=Dot(UP)
+      dot2=Dot(DOWN)
+      line=Line(dot1,dot2)
+      self.add(dot1,dot2,line)
+```
+![LineExample3](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/5cdab846-394f-4ef9-8405-91a865306b88)
+
+
 #### 1.1 Arrow
 #### 1.2 Double Arrow
 #### 1.3 Vector
