@@ -2,7 +2,7 @@
 These are some tutorials which helps beginners (especially Mathematics Teachers) in Manim to start creating some basic animations. These tutorials are based on [Manim CE](https://docs.manim.community/).
 Let's start learning about MObjects. Getting a grasp on MObjects will help you to create better animations.
 ## VMObjects
-1. Line \n
-   1.1 Arrow \n
-   1.2 Double Arrow \n
+
+### 1. Lines
+
    
