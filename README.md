@@ -4,6 +4,15 @@ Let's start learning about MObjects. Getting a grasp on MObjects will help you t
 ## VMObjects
 
 ### 1. Lines
+```
+%%manim -qm -v WARNING LineExample1
+
+class LineExample1(Scene):
+    def construct(self):
+
+      line1=Line(1*RIGHT,1*LEFT)
+      self.add(line1)
+```
 #### 1.1 Arrow
 #### 1.2 Double Arrow
 #### 1.3 Vector
