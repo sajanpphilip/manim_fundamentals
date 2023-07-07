@@ -98,6 +98,23 @@ class LineExample6(Scene):
 ![Example 6](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/f116f199-1068-4a47-a952-7cc6b874e575)
 
 
+### Line Example 7
+```
+%%manim -qm -v WARNING LineExample7
+
+class LineExample7(Scene):
+    def construct(self):
+
+      line1 = Line()
+      line2 = Line()
+      line3 = Line()
+      line4 = Line()
+      lines = VGroup(line1, line2, line3, line4).arrange(DOWN, buff=1)
+      self.add(lines)
+```
+![Example 7](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/8fe125c1-6977-4400-873d-eec82a8b3dc0)
+
+
 
 
 #### 1.1 Arrow
