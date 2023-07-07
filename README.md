@@ -114,6 +114,25 @@ class LineExample7(Scene):
 ```
 ![Example 7](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/8fe125c1-6977-4400-873d-eec82a8b3dc0)
 
+### Line Example 8
+
+%%manim -qm -v WARNING LineExample7
+
+class LineExample7(Scene):
+    def construct(self):
+
+      line1 = Line(color = PURPLE, stroke_width = 40)
+      line2 = Line(color = BLUE_D, stroke_width = 40)
+      line3 = Line(color = BLUE_C,stroke_width = 40)
+      line4 = Line(color = GREEN_D, stroke_width = 40)
+      line5 = Line(color = YELLOW_C, stroke_width = 40)
+      line6 = Line(color = GOLD, stroke_width = 40)
+      line7 = Line (color = RED, stroke_width = 40)
+      lines = VGroup(line1, line2, line3, line4, line5, line6,line7).arrange(DOWN, buff = 0.4)
+      self.add(lines)
+
+    ![download](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/be20bfe9-2dbc-4271-bfd5-a9557bcd6e37)
+  
 
 
 
