@@ -46,12 +46,12 @@ class LineExample3(Scene):
 ```
 ![LineExample3](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/5cdab846-394f-4ef9-8405-91a865306b88)
 
-#### Exampel 4
+#### Exampele 4
 
 ```
-%%manim -qm -v WARNING LineExample5
+%%manim -qm -v WARNING LineExample4
 
-class LineExample5(Scene):
+class LineExample4(Scene):
     def construct(self):
 
       circle1=Circle(radius=1).move_to(2*RIGHT)
@@ -61,6 +61,26 @@ class LineExample5(Scene):
 
 ````
 ![LineExample4](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/ed76c834-1b85-465c-824c-5889a85b61c1)
+
+### Line Example 5
+
+```
+%%manim -qm -v WARNING LineExample5
+
+class LineExample5(Scene):
+    def construct(self):
+
+      dot1=Dot(UP)
+      dot2=Dot(DOWN)
+      dot3=Dot(2*RIGHT, color = RED)
+      line=Line(dot1,dot2)
+      proj_point = line.get_projection(dot3.get_center()) # dot3.get_center() is used to get the exact coordinate
+      dot4= Dot(proj_point, color = RED)
+      proj_line = Line(dot3.get_center(),proj_point, color = BLUE)
+      self.add(dot1,dot2,dot3,dot4,line,proj_line)
+
+```
+![Example 5](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/21e0fcf9-86ce-4695-85fb-a5bf6f903341)
 
 
 
