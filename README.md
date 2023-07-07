@@ -134,11 +134,11 @@ class LineExample7(Scene):
 ![Example 8](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/cc53d50d-4941-4561-84e6-14995338ff25)
 
   
+#### 1.1 Dashed Lines
 
 
-
-#### 1.1 Arrow
-#### 1.2 Double Arrow
-#### 1.3 Vector
+#### 1.2 Arrow
+#### 1.3 Double Arrow
+#### 1.4 Vector
 
    
