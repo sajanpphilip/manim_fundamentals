@@ -116,7 +116,7 @@ class LineExample7(Scene):
 
 ### Line Example 8
 
-%%manim -qm -v WARNING LineExample7
+%%manim -qm -v WARNING LineExample8
 
 class LineExample7(Scene):
     def construct(self):
@@ -131,7 +131,8 @@ class LineExample7(Scene):
       lines = VGroup(line1, line2, line3, line4, line5, line6,line7).arrange(DOWN, buff = 0.4)
       self.add(lines)
 
-    ![download](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/be20bfe9-2dbc-4271-bfd5-a9557bcd6e37)
+![Example 8](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/cc53d50d-4941-4561-84e6-14995338ff25)
+
   
 
 
