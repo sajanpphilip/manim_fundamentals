@@ -82,6 +82,22 @@ class LineExample5(Scene):
 ```
 ![Example 5](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/21e0fcf9-86ce-4695-85fb-a5bf6f903341)
 
+### Line Example 6
+
+%%manim -qm -v WARNING LineExample6
+
+class LineExample6(Scene):
+    def construct(self):
+
+      square1=Square(side_length = 2.0, color = RED).shift(2*RIGHT)
+      square2=Square(side_length = 1.0, color = BLUE).shift(2*LEFT)
+      line=Line(square1.get_corner(UR),square2.get_edge_center(DOWN))
+      self.add(square1,square2,line)
+
+      ```
+![Example 6](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/f116f199-1068-4a47-a952-7cc6b874e575)
+
+
 
 
 #### 1.1 Arrow
