@@ -3,7 +3,7 @@ These are some tutorials which helps beginners (especially Mathematics Teachers)
 Let's start learning about MObjects. Getting a grasp on MObjects will help you to create better animations. I have used Google Colab to bypass the difficulties in Installation of Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation.
 ## VMObjects
 
-### 1. Lines
+## 1. Lines
 #### Example 1
 
 ```
