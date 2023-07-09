@@ -178,7 +178,23 @@ class ArrowExample1(Scene):
 ```
 ![Arrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/3368c97b-2071-494f-b016-d4a383bc73a6)
 
-#### 1.3 Double Arrow
+## 1.3 Double Arrow
+### Example 1
+```
+%%manim -qm -v WARNING DoubleArrowExample1 
+
+class DoubleArrowExample1(Scene):
+   def construct(self):
+
+      double_arrow1 = DoubleArrow(stroke_width=5, buff=0.1, max_tip_length_to_length_ratio=0.1, max_stroke_width_to_length_ratio=5, start=UL, end = UR, color = RED)
+      double_arrow2 = DoubleArrow(stroke_width=10, buff=0.2, max_tip_length_to_length_ratio=0.25, max_stroke_width_to_length_ratio=10, start = LEFT, end = RIGHT, color = BLUE)
+      double_arrow3 = DoubleArrow(stroke_width=20, buff=0.4, max_tip_length_to_length_ratio=0.5, max_stroke_width_to_length_ratio=20, start = DL, end = DR, color = GREEN)
+      
+
+      self.add(double_arrow1, double_arrow2, double_arrow3)
+```
+![doublearrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/c719d7e1-659b-4ce9-bd99-a436b57cfb15)
+
 #### 1.4 Vector
 
    
