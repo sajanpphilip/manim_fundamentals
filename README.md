@@ -121,7 +121,7 @@ class LineExample7(Scene):
 ```
 %%manim -qm -v WARNING LineExample8
 
-class LineExample7(Scene):
+class LineExample8(Scene):
     def construct(self):
 
       line1 = Line(color = PURPLE, stroke_width = 40)
