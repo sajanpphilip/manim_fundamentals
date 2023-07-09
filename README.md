@@ -83,7 +83,7 @@ class LineExample5(Scene):
 ![Example 5](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/21e0fcf9-86ce-4695-85fb-a5bf6f903341)
 
 ### Line Example 6
-
+```
 %%manim -qm -v WARNING LineExample6
 
 class LineExample6(Scene):
@@ -99,6 +99,7 @@ class LineExample6(Scene):
 
 
 ### Line Example 7
+
 ```
 %%manim -qm -v WARNING LineExample7
 
@@ -116,6 +117,7 @@ class LineExample7(Scene):
 
 ### Line Example 8
 
+```
 %%manim -qm -v WARNING LineExample8
 
 class LineExample7(Scene):
