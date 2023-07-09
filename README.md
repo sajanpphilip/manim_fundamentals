@@ -137,7 +137,26 @@ class LineExample8(Scene):
 ![Example 8](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/cc53d50d-4941-4561-84e6-14995338ff25)
 
   
-#### 1.1 Dashed Lines
+## 1.1 Dashed Lines
+### Example 1
+```
+%%manim -qm -v WARNING DashedLineExample1 
+
+class DashedLineExample1(Scene):
+    def construct(self):
+
+      dashed_line1 = DashedLine(2*UL, 2*UR)
+      dashed_line2 = DashedLine(2*LEFT, 2*RIGHT, dash_length = 0.5)      
+      dashed_line3 = DashedLine(2*DL, 2*DR, dash_length = 0.5, dashed_ratio = 0.9)
+      dashed_line4 = DashedLine(dashed_line1.get_end(),dashed_line2.get_start())
+      dashed_line5 = DashedLine(dashed_line2.get_last_handle(), dashed_line3.get_first_handle())
+
+
+      self.add(dashed_line1, dashed_line2, dashed_line3,dashed_line4, dashed_line5)
+```
+![Uploading Dashed_Line Example 1.png…]()
+
+
 
 
 #### 1.2 Arrow
