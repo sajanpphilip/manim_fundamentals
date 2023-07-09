@@ -133,7 +133,7 @@ class LineExample8(Scene):
       line7 = Line (color = RED, stroke_width = 40)
       lines = VGroup(line1, line2, line3, line4, line5, line6,line7).arrange(DOWN, buff = 0.4)
       self.add(lines)
-
+```
 ![Example 8](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/cc53d50d-4941-4561-84e6-14995338ff25)
 
   
