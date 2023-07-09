@@ -154,7 +154,8 @@ class DashedLineExample1(Scene):
 
       self.add(dashed_line1, dashed_line2, dashed_line3,dashed_line4, dashed_line5)
 ```
-![Uploading Dashed_Line Example 1.png…]()
+![Dashed_Line Example 1](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/d7ad2f0e-84c3-4067-a67b-00f01f8bb477)
+
 
 
 
