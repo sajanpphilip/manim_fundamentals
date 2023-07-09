@@ -160,7 +160,24 @@ class DashedLineExample1(Scene):
 
 
 
-#### 1.2 Arrow
+## 1.2 Arrow
+### Example 1 
+
+```
+%%manim -qm -v WARNING ArrowExample1 
+
+class ArrowExample1(Scene):
+   def construct(self):
+
+      arrow1 = Arrow(stroke_width=5, buff=0.1, max_tip_length_to_length_ratio=0.1, max_stroke_width_to_length_ratio=5, start=UL, end = UR, color = RED)
+      arrow2 = Arrow(stroke_width=10, buff=0.2, max_tip_length_to_length_ratio=0.25, max_stroke_width_to_length_ratio=10, start = LEFT, end = RIGHT, color = BLUE)
+      arrow3 = Arrow(stroke_width=20, buff=0.4, max_tip_length_to_length_ratio=0.5, max_stroke_width_to_length_ratio=20, start = DL, end = DR, color = GREEN)
+      
+
+      self.add(arrow1, arrow2, arrow3)
+```
+![Arrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/3368c97b-2071-494f-b016-d4a383bc73a6)
+
 #### 1.3 Double Arrow
 #### 1.4 Vector
 
