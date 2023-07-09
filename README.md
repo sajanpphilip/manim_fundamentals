@@ -195,6 +195,24 @@ class DoubleArrowExample1(Scene):
 ```
 ![doublearrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/c719d7e1-659b-4ce9-bd99-a436b57cfb15)
 
-#### 1.4 Vector
+## 1.4 Tangent Line
+### Example 1
+
+```
+%%manim -qm -v WARNING TangentLineExample1 
+
+class TangentLineExample1(Scene):
+    def construct(self):
+      
+        circle = Circle(radius=3)
+        line_1 = TangentLine(circle, alpha = 0.0, length = 5, color=RED) 
+        line_2 = TangentLine(circle, alpha = 0.25, length = 5, color=BLUE)
+        line_3 = TangentLine(circle, alpha = 0.5, length = 5, color = GREEN) 
+        line_4 = TangentLine(circle, alpha = 0.75, length = 5, color = YELLOW) 
+
+        self.add(circle, line_1, line_2, line_3, line_4)
+```
+![Tangent Line](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/86620eaa-be69-4dec-8cdc-73d973daa0c7)
+
 
    
