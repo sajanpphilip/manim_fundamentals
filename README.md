@@ -60,7 +60,7 @@ class LineExample4(Scene):
       self.add(circle1,circle2,line)
 
 ````
-![LineExample4](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/ed76c834-1b85-465c-824c-5889a85b61c1)
+![LineExample4](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/ed76c834-1b85-465c-824c-5889a85b61c1) 
 
 ### Line Example 5
 
