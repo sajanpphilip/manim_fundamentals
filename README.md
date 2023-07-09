@@ -4,7 +4,7 @@ Let's start learning about MObjects. Getting a grasp on MObjects will help you t
 ## VMObjects
 
 ## 1. Lines
-#### Example 1
+### Example 1
 
 ```
 %%manim -qm -v WARNING LineExample1
@@ -17,7 +17,7 @@ class LineExample1(Scene):
 ```
 ![LineExample1](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b68b6967-39f1-4bab-9108-d8f3c684f441)
 
-#### Example 2
+### Example 2
 
 ```
 %%manim -qm -v WARNING LineExample2
@@ -31,7 +31,7 @@ class LineExample2(Scene):
 ![LineExample2](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/7e5cb674-9814-453e-9c4c-99f7b7b38442)
 
 
-#### Example 3
+### Example 3
 
 ```
 %%manim -qm -v WARNING LineExample3
@@ -46,7 +46,7 @@ class LineExample3(Scene):
 ```
 ![LineExample3](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/5cdab846-394f-4ef9-8405-91a865306b88)
 
-#### Exampele 4
+### Exampele 4
 
 ```
 %%manim -qm -v WARNING LineExample4
@@ -213,6 +213,24 @@ class TangentLineExample1(Scene):
         self.add(circle, line_1, line_2, line_3, line_4)
 ```
 ![Tangent Line](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/86620eaa-be69-4dec-8cdc-73d973daa0c7)
+
+## 2. Arc
+### Example 1
+
+```
+%%manim -qm -v WARNING ArcExample1 
+
+class ArcExample1(Scene):
+    def construct(self):
+        arc1 = Arc(radius=1.0, start_angle=0, angle = 3*PI/4.0, num_components=15, arc_center=2*RIGHT)
+        line1= Line(arc1.get_center(), arc1.get_start(), color = YELLOW)
+        line2 = Line(arc1.get_center(), arc1.get_end(), color = BLUE)
+        
+
+        self.add(arc1,line1, line2)
+```
+
+![arc](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/ca1b96ce-5df2-4569-914d-ea4757d1b76a)
 
 
    
