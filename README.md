@@ -255,6 +255,27 @@ class CircleExample1(Scene):
 ```
 ![circle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a866d6ff-8538-4edb-80ae-b421a4167b31)
 
+### Example 2
+
+```
+%%manim -qm -v WARNING CircleExample2
+
+class CircleExample2(Scene):
+    def construct(self):
+      
+        circle_1 = Circle(radius=3.0, color = BLUE).move_to(2*RIGHT)
+        p1 = circle_1.point_at_angle(PI/2.0)
+        p2 = circle_1.point_at_angle(3*PI/2.0)
+        p3 = circle_1.point_at_angle(PI)
+        p4 = circle_1.point_at_angle(0)
+        line1 = Line(p1,p2, color = RED)
+        line2 = Line(p3,p4, color = GREEN)
+
+        self.add(circle_1, line1, line2)
+```
+![circle 2](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a1b05d9e-69d3-4b83-a1fa-7ad3d5f157c3)
+
+
 
 
    
