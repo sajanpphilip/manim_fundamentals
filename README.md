@@ -232,5 +232,29 @@ class ArcExample1(Scene):
 
 ![arc](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/ca1b96ce-5df2-4569-914d-ea4757d1b76a)
 
+## 2.1 Circle
+### Example 1
+
+```
+%%manim -qm -v WARNING CircleExample1
+
+class CircleExample1(Scene):
+    def construct(self):
+      
+        circle_1 = Circle(radius=1.0, color = BLUE).move_to(2*RIGHT)
+        circle_2 = Circle(radius=1.5, color=RED).next_to(circle_1, buff=0.5)
+        circle_3 = Circle(radius=1.0, color=GOLD, fill_opacity=0.5)
+        circle_4 = Circle(radius = 0.5, color = WHITE)
+        circle_5 = Circle(radius = 0.5, color = GREEN)
+        circle_6 = Circle(radius = 0.5, color = PURPLE)
+        circle_7 = Circle.from_three_points(2*LEFT,2*DOWN,1*LEFT)
+        circ_group = Group(circle_4, circle_5, circle_6).arrange(buff=0.5).move_to(2*UP)
+
+
+        self.add(circle_1, circle_2, circle_3, circle_4, circ_group, circle_7)
+```
+![circle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a866d6ff-8538-4edb-80ae-b421a4167b31)
+
+
 
    
