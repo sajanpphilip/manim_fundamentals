@@ -275,6 +275,30 @@ class CircleExample2(Scene):
 ```
 ![circle 2](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a1b05d9e-69d3-4b83-a1fa-7ad3d5f157c3)
 
+### Example 3
+
+```
+%%manim -qm -v WARNING CircleExample3
+
+class CircleExample3(Scene):
+    def construct(self):
+
+      triangle1 = Triangle (color = RED).move_to(5*LEFT)
+      circle_1 = Circle(color = WHITE).surround(triangle1,buffer_factor=1.5)
+      triangle2 = Triangle (color= BLUE).move_to(2*LEFT)
+      circle_2 = Circle(color = GREEN).surround(triangle2,buffer_factor = 0.25)
+      line = Line(0.5*LEFT, 0.5*RIGHT)
+      circle_3 = Circle(color = GOLD).surround(line)
+      square1 = Square(side_length=1.0).move_to(2*RIGHT)
+      circle_4 = Circle(color = BLUE).surround(square1,buffer_factor=1.5)
+      square2 = Square(side_length=1.0).move_to(5*RIGHT)
+      circle_5 = Circle(color = YELLOW).surround(square2,buffer_factor=0.25)
+
+      self.add(triangle1, triangle2, line, square1, square2, circle_1, circle_2, circle_3, circle_4, circle_5)
+```
+
+![circle 3](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a75c12eb-0d9a-4794-9770-aba775b65f01)
+
 
 
 
