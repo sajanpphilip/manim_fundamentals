@@ -1,8 +1,9 @@
 # Manim Fundamentals
 These are some tutorials which helps beginners (especially Mathematics Teachers) in Manim to start creating some basic animations. These tutorials are based on [Manim CE](https://docs.manim.community/).
-Let's start learning about VMObjects. Getting a grasp on VMObjects will help you to create better animations. I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation.
+Let's start learning about VMObjects. Getting a grasp on VMObjects will help you to create better animations. I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation. First let us familiarize ourself with these basic shapes and then we can move to Basic Animations. After that we can proceed with Complex Shapes, Complex Animations, Complex Programming Concepts and Updater Concepts.
 
 ## Basic VMObjects
+To start with we can create some basic Geometrical Shapes required in Math Animations. They are named as VMObjects in Manim. Only Basic Shapes are included here.
 
 ## 1. Lines
 ### Example 1
@@ -490,4 +491,24 @@ class RectangleExample(Scene):
         self.add(rect1,rect2, r_rect3)
 ```
 ![rectangle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/3a8bb69a-48fc-454c-8216-5f2f540b54fa)
+
+## 3.6  Square
+```
+%%manim -qm -v WARNING SquareExample
+
+class SquareExample(Scene):
+    def construct(self):
+
+        square_1 = Square(side_length=2.0)
+        square_2 = Square(side_length=3.0, color=RED).next_to(square_1, LEFT)
+        square_3 = Square(side_length=1.0, color = BLUE, fill_opacity = 0.2).next_to(square_1, RIGHT)
+
+        self.add(square_1, square_2, square_3)
+```
+![square](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/1c7e666d-c0f4-4edc-9412-22b0fb34f5c3)
+
+## 3.7 Star
+```
+```
+
 
