@@ -1,3 +1,4 @@
+- <details><summary>Detail 1</summary>
 # Manim Fundamentals
 These are some tutorials which helps beginners (especially Mathematics Teachers) in Manim to start creating some basic animations. These tutorials are based on [Manim CE](https://docs.manim.community/).
 Let's start learning about VMObjects. Getting a grasp on VMObjects will help you to create better animations. I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation.
