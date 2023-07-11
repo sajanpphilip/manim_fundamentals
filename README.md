@@ -314,6 +314,7 @@ class ArcBetweenPointsExample1(Scene):
       self.add(arc1,arc2,arc3,arc4)
 ```
 
+![arcpoints](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/f3d75bdf-18e8-4929-8f71-292b6df00067)
 
 
    
