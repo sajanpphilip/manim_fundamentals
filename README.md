@@ -298,8 +298,23 @@ class CircleExample3(Scene):
 ```
 
 ![circle 3](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a75c12eb-0d9a-4794-9770-aba775b65f01)
+## 2.2 Ellipse
 
-## ArcBetweenPoints
+### Example 1
+```
+%%manim -qm -v WARNING EllipseExample1
+
+class EllipseExample1(Scene):
+    def construct(self):
+        ellipse_1 = Ellipse(width=2.0, height=4.0, color=RED,).move_to(2*LEFT)
+        ellipse_2 = Ellipse(width=4.0, height=3.0, color=BLUE, fill_color= BLUE, fill_opacity = 0.5).move_to(2*UR)
+        
+        self.add(ellipse_1,ellipse_2)
+```
+![ellipse example](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/4cfd6599-b383-417b-88ed-1e875a07c8ba)
+
+
+## 2.3 ArcBetweenPoints
 
 ### Example 1
 ```
@@ -316,7 +331,7 @@ class ArcBetweenPointsExample1(Scene):
 
 ![arcpoints](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/f3d75bdf-18e8-4929-8f71-292b6df00067)
 
-## CurvedArrow
+## 2.4 CurvedArrow
 
 ### Example 1
 ```
@@ -334,7 +349,7 @@ class CurvedArrowExample1(Scene):
 ```
 ![carrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/e3a2339e-3596-4cc9-b0b7-f245e738a7af)
 
-## CurvedDoubleArrow
+## 2.5 CurvedDoubleArrow
 
 ```
 %%manim -qm -v WARNING CurvedDoubleArrowExample1
