@@ -5,6 +5,7 @@ Let's start learning about VMObjects. Getting a grasp on VMObjects will help you
 ## Basic VMObjects
 To start with we can create some basic Geometrical Shapes required in Math Animations. They are named as VMObjects in Manim. Only Basic Shapes are included here. You can directly copy and paste these code into Google Colab and alter the variables to see how the shapes change.
 
+<details>
 ## 1. Lines
 ### Example 1
 
@@ -522,3 +523,4 @@ class StarExample(Scene):
 
 ![star](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/17be2a45-cf7e-4460-b695-d955091aaaa7)
 
+</details>
