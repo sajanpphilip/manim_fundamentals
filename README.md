@@ -413,11 +413,13 @@ class DotExample1(Scene):
 class PolygramExample(Scene):
     def construct(self):
 
-      polygram = Polygram([[0, 2, 0],[1,3,1], [3, -1, 0], [3, -1, 0],[1,2,3],[2,-3,2]],color = RED)
+      polygram = Polygram([[0, 2, 0],[1, 3, 1], [3, -1, 0], [3, -1, 0],[1, 2, 3],[2, -3, 2]],
+                            [[-1, -1, 2],[1, -3, 2],[2, -1, 2]],color = RED)
 
       self.add(polygram)
 ```
-![polygram](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/aa94ebcc-c98a-422a-8b95-4ccadbe23cd1)
+
+![polygram](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/8032e274-4d53-441e-9646-6bd3c8e8cd31)
 
 ## 3.1 Regular Polygram
 ```%%manim -qm -v WARNING RegularPolygramExample
