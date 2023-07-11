@@ -462,6 +462,16 @@ class RegularPolygonExample(Scene):
 ```
 ![regpolygon](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/740ca596-2d79-4d5c-b635-d89cbe322384)
 
+## 3.4 Triangle
+```
+%%manim -qm -v WARNING TriangleExample
 
+class TriangleExample(Scene):
+    def construct(self):
+        triangle_1 = Triangle()
+        triangle_2 = Triangle(color=RED, fill_color = RED, fill_opacity = 0.5, stroke_color = WHITE, stroke_width = 5.0).scale(2).rotate(45*DEGREES).next_to(triangle_1)
+        self.add(triangle_1, triangle_2)
+```
 
+![triangle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a344eb16-734e-4b7e-b073-72293746f401)
 
