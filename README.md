@@ -419,3 +419,34 @@ class PolygramExample(Scene):
 ```
 ![polygram](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/aa94ebcc-c98a-422a-8b95-4ccadbe23cd1)
 
+## 3.1 Regular Polygram
+```%%manim -qm -v WARNING RegularPolygramExample
+
+class RegularPolygramExample(Scene):
+    def construct(self):
+        pentagram = RegularPolygram(5, radius=2)
+        hexagram = RegularPolygram(6, radius = 2.5, density = 2, start_angle=3*PI/4.0, color = RED).next_to(pentagram)
+        decagram = RegularPolygram(10, radius = 2.5, density = 4, start_angle=PI/4.0, color = GREEN).next_to(pentagram, LEFT)
+        
+        self.add(pentagram, hexagram, decagram)
+```
+![regpolygram](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/ff0f3ed4-3d00-4965-b729-caef190c3c20)
+
+## 3.2 Polygon
+```
+%%manim -qm -v WARNING PolygonExample
+
+class PolygonExample(Scene):
+    def construct(self):
+
+      polygon = Polygon([0, 2, 0],[1,3,1], [3, -1, 0], [3, -1, 0],[1, 1, 3],[2, -3,2 ],color = RED)
+
+      self.add(polygon)
+```
+![polygon](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b5dee489-edc3-4378-a6ce-e2390eaed29a)
+
+## 3.3 Regular Polygon
+
+
+
+
