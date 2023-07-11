@@ -475,3 +475,19 @@ class TriangleExample(Scene):
 
 ![triangle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a344eb16-734e-4b7e-b073-72293746f401)
 
+## 3.5 Rectangle
+
+```
+%%manim -qm -v WARNING RectangleExample
+
+class RectangleExample(Scene):
+    def construct(self):
+
+        rect1 = Rectangle(width=4.0, height=2.0, grid_xstep=1.0, grid_ystep=1)
+        rect2 = Rectangle(width=3.0, height=2.0, color = RED, fill_opacity = 0.5). next_to(rect1, LEFT)
+        r_rect3 = RoundedRectangle(corner_radius = 0.2, width=4.0, height=1.0, color = BLUE, fill_opacity = 0.2). next_to(rect1, LEFT).next_to(rect1,RIGHT)
+
+        self.add(rect1,rect2, r_rect3)
+```
+![rectangle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/3a8bb69a-48fc-454c-8216-5f2f540b54fa)
+
