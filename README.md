@@ -368,4 +368,21 @@ class CurvedDoubleArrowExample1(Scene):
 ```
 
  ![cdarrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/042a7ed8-7deb-4715-ab09-99f60da52e8b)
+
+ ## 2.6 Annulus
+ ```
+%%manim -qm -v WARNING AnnulusExample1
+
+class AnnulusExample1(Scene):
+    def construct(self):
+
+        annulus_1 = Annulus(inner_radius=1, outer_radius=2).shift(1*UL)
+        annulus_2 = Annulus(inner_radius=0.5, outer_radius=0.9, color=RED, fill_opacity = 0.5, stroke_width=3).next_to(annulus_1, RIGHT)
+        
+        self.add(annulus_1, annulus_2)
+
+```
+![annulus](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a6d6d1a8-cc4c-4bb6-8eb8-397adc16a19e)
+
+
   
