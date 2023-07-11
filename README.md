@@ -299,6 +299,20 @@ class CircleExample3(Scene):
 
 ![circle 3](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a75c12eb-0d9a-4794-9770-aba775b65f01)
 
+## ArcBetweenPoints
+
+### Example 1
+```
+%%manim -qm -v WARNING ArcBetweenPointsExample1
+
+class ArcBetweenPointsExample1(Scene):
+    def construct(self):
+      arc1=ArcBetweenPoints(start = 2.0*RIGHT, end = 2.0*UP, stroke_color = RED, stroke_width = 2.0)
+      arc2=ArcBetweenPoints(start = 3.0*LEFT, end = ORIGIN, stroke_color = BLUE)
+      arc3=ArcBetweenPoints(start = 1.0*UP, end = 1.0*LEFT,radius=7.0, color = GREEN)
+      arc4 = ArcBetweenPoints(start = 1*RIGHT, end = 2.5*UP, angle = 3.14, color = PURPLE)
+      self.add(arc1,arc2,arc3,arc4)
+```
 
 
 
