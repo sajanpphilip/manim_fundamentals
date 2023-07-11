@@ -316,5 +316,21 @@ class ArcBetweenPointsExample1(Scene):
 
 ![arcpoints](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/f3d75bdf-18e8-4929-8f71-292b6df00067)
 
+## CurvedArrow
 
+### Example 1
+```
+%%manim -qm -v WARNING CurvedArrowExample1
+
+class CurvedArrowExample1(Scene):
+   def construct(self):
+
+      c_arrow1 = CurvedArrow(stroke_width=5,start_point=UL, end_point = UR, color = RED)
+      c_arrow2 = CurvedArrow(stroke_width=10,start_point = LEFT, end_point = RIGHT, color = BLUE)
+      c_arrow3 = CurvedArrow(stroke_width=20, start_point = DL, end_point = DR, color = GREEN)
+
+
+      self.add(c_arrow1, c_arrow2, c_arrow3)
+```
+![carrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/e3a2339e-3596-4cc9-b0b7-f245e738a7af)
    
