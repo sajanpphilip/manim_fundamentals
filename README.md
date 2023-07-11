@@ -406,3 +406,16 @@ class DotExample1(Scene):
 ```
 ![dot](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/8b81bc6e-d309-4da4-8840-598a4dcd9c14)
 
+## 3. Polygram
+```
+%%manim -qm -v WARNING PolygramExample
+
+class PolygramExample(Scene):
+    def construct(self):
+
+      polygram = Polygram([[0, 2, 0],[1,3,1], [3, -1, 0], [3, -1, 0],[1,2,3],[2,-3,2]],color = RED)
+
+      self.add(polygram)
+```
+![polygram](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/aa94ebcc-c98a-422a-8b95-4ccadbe23cd1)
+
