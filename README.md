@@ -333,4 +333,22 @@ class CurvedArrowExample1(Scene):
       self.add(c_arrow1, c_arrow2, c_arrow3)
 ```
 ![carrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/e3a2339e-3596-4cc9-b0b7-f245e738a7af)
-   
+
+## CurvedDoubleArrow
+
+```
+%%manim -qm -v WARNING CurvedDoubleArrowExample1
+
+class CurvedDoubleArrowExample1(Scene):
+   def construct(self):
+
+      cd_arrow1 = CurvedDoubleArrow(stroke_width=5,start_point=UL, end_point = UR, color = RED)
+      cd_arrow2 = CurvedDoubleArrow(stroke_width=10,start_point = LEFT, end_point = RIGHT, color = BLUE)
+      cd_arrow3 = CurvedDoubleArrow(stroke_width=20, start_point = DL, end_point = DR, color = GREEN)
+
+
+      self.add(cd_arrow1, cd_arrow2, cd_arrow3)
+```
+
+ ![cdarrow](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/042a7ed8-7deb-4715-ab09-99f60da52e8b)
+  
