@@ -2,23 +2,13 @@
 These are some tutorials which helps beginners (especially Mathematics Teachers) in Manim to start creating some basic animations. These tutorials are based on [Manim CE](https://docs.manim.community/).
 Let's start learning about VMObjects. Getting a grasp on VMObjects will help you to create better animations. I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation.
 
-## [Basic VMobjects](#Basic-VMobjects)
-###    [1. Lines](#1.-Lines)
-###        [Example 1](#Example-1)
-###        [Example 2](#Example-2)
-###        [Example 3](#Example-3)
-###        [Example 4](#Example-4)
-###        [Example 5](#Example-5)
-###        [Example 6](#Example-6)
-###        [Example 7](#Example-7)
-###        [Example 8](#Example-8)
-
 ## Basic VMObjects
 
 ## 1. Lines
 ### Example 1
 
-```
+```css
+    \\code for coloring
 %%manim -qm -v WARNING LineExample1
 
 class LineExample1(Scene):
