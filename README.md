@@ -4,7 +4,14 @@ Let's start learning about VMObjects. Getting a grasp on VMObjects will help you
 
 ## [Basic VMobjects](#Basic-VMobjects)
 ###    [1. Lines](#1.-Lines)
-###        [Example 1](#Example_1)
+###        [Example 1](#Example-1)
+###        [Example 2](#Example-2)
+###        [Example 3](#Example-3)
+###        [Example 4](#Example-4)
+###        [Example 5](#Example-5)
+###        [Example 6](#Example-6)
+###        [Example 7](#Example-7)
+###        [Example 8](#Example-8)
 
 ## Basic VMObjects
 
