@@ -449,6 +449,19 @@ class PolygonExample(Scene):
 
 ## 3.3 Regular Polygon
 
+```
+%%manim -qm -v WARNING RegularPolygonExample
+
+class RegularPolygonExample(Scene):
+    def construct(self):
+        poly_1 = RegularPolygon(n=6)
+        poly_2 = RegularPolygon(n=6, start_angle=30*DEGREES, color=GREEN, radius = 2).next_to(poly_1, LEFT)
+        poly_3 = RegularPolygon(n=10, color=RED, radius = 1.5, fill_color = GOLD, fill_opacity = 0.5).next_to(poly_1, RIGHT)
+
+        self.add(poly_1,poly_2,poly_3)
+```
+![regpolygon](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/740ca596-2d79-4d5c-b635-d89cbe322384)
+
 
 
 
