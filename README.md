@@ -524,3 +524,6 @@ class StarExample(Scene):
 ![star](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/17be2a45-cf7e-4460-b695-d955091aaaa7)
 
 </details>
+
+## Basic Animations
+We need to try some basic animations to make the learning interesting. In this subsection, based on our knowledge on basic shapes, let us learn to use some basic animations.
