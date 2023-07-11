@@ -385,4 +385,24 @@ class AnnulusExample1(Scene):
 ![annulus](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a6d6d1a8-cc4c-4bb6-8eb8-397adc16a19e)
 
 
-  
+## 2.7  Dot
+
+```
+%%manim -qm -v WARNING DotExample1
+
+class DotExample1(Scene):
+    def construct(self):
+
+        dot1 = Dot(point=2*LEFT, radius=0.1, stroke_width=2, fill_opacity=0.5, color=BLUE)
+        dot2 = Dot(point = 2*RIGHT, color = GREEN)
+        l_dot3 = LabeledDot(Text("ii", color=BLUE))
+        l_dot4 = LabeledDot(Text("3", color = WHITE, font_size = 15), radius = 0.2, fill_opacity = 0.5).next_to(dot1)
+        l_dot5 = LabeledDot(MathTex("x", color = GOLD)).next_to(dot2)
+        a_dot6 = AnnotationDot(radius = 1.0, stroke_width = 2, stroke_color = RED, fill_color = RED, fill_opacity=0.2)
+        
+
+        
+        self.add(dot1,dot2,l_dot3,l_dot4, l_dot5, a_dot6)
+```
+![dot](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/8b81bc6e-d309-4da4-8840-598a4dcd9c14)
+
