@@ -3,7 +3,7 @@ These are some tutorials which helps beginners (especially Mathematics Teachers)
 Let's start learning about VMObjects. Getting a grasp on VMObjects will help you to create better animations. I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation. First let us familiarize ourself with these basic shapes and then we can move to Basic Animations. After that we can proceed with Complex Shapes, Complex Animations, Complex Programming Concepts and Updater Concepts.
 
 ## Basic VMObjects
-To start with we can create some basic Geometrical Shapes required in Math Animations. They are named as VMObjects in Manim. Only Basic Shapes are included here.
+To start with we can create some basic Geometrical Shapes required in Math Animations. They are named as VMObjects in Manim. Only Basic Shapes are included here. You can directly copy and paste these code into Google Colab and alter the variables to see how the shapes change.
 
 ## 1. Lines
 ### Example 1
@@ -509,6 +509,16 @@ class SquareExample(Scene):
 
 ## 3.7 Star
 ```
+%%manim -qm -v WARNING StarExample
+
+class StarExample(Scene):
+    def construct(self):
+        star1 = Star(7, outer_radius = 2.0, density = 2, color=RED)
+        star2 = Star(8, outer_radius = 2.0, density = 3, color=PURPLE).next_to(star1, RIGHT)
+        star3 = Star(9, outer_radius = 1.0, density = 4, color = GOLD, fill_opacity = 0.3 ).next_to(star1, LEFT)
+        
+        self.add(star1,star2,star3)
 ```
 
+![star](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/17be2a45-cf7e-4460-b695-d955091aaaa7)
 
