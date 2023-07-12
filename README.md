@@ -593,7 +593,7 @@ class FadeInExample1(Scene):
 ![fadeout gif](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b900482a-022c-452f-8c67-00972faa91ae)
 
 
-<details>
+</details>
 
 # Advanced Programming Techniques
 
