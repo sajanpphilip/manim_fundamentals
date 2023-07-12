@@ -531,7 +531,7 @@ class StarExample(Scene):
 We need to try some basic animations to make the learning interesting. In this subsection, based on our knowledge on basic shapes, let us learn to use some basic animations.
 
 <details>
-<summary> Click Here and expand to learn more about Basic Shapes. We will see coding Examples for different types of Lines, Arrows, Arcs, Circles, Polygons, Rectangles, Triangles, Square etc. </summary>
+<summary> Click Here and expand to learn more about Basic Animations. Here we will learn about simple animations using the VMObjects we have learnt in the previous section </summary>
     
 ## FadeIn
 
@@ -596,6 +596,9 @@ class FadeInExample1(Scene):
 <details>
 
 # Advanced Programming Techniques
+
 # Advanced MObjects
+
 # Advanced Animations
+
 # Updaters
