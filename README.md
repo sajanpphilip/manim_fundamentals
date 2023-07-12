@@ -530,6 +530,9 @@ class StarExample(Scene):
 ## Basic Animations
 We need to try some basic animations to make the learning interesting. In this subsection, based on our knowledge on basic shapes, let us learn to use some basic animations.
 
+<details>
+<summary> Click Here and expand to learn more about Basic Shapes. We will see coding Examples for different types of Lines, Arrows, Arcs, Circles, Polygons, Rectangles, Triangles, Square etc. </summary>
+    
 ## FadeIn
 
 ### Example 1
@@ -590,3 +593,9 @@ class FadeInExample1(Scene):
 ![fadeout gif](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b900482a-022c-452f-8c67-00972faa91ae)
 
 
+<details>
+
+# Advanced Programming Techniques
+# Advanced MObjects
+# Advanced Animations
+# Updaters
