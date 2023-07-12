@@ -558,3 +558,35 @@ class FadeInExample1(Scene):
         self.wait()
 ```
 ![anim](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a3b27226-88c4-4407-adff-1bd0e35cb7d1)
+
+## FadeOut
+
+### Example 1
+```
+%%manim -qm -v WARNING FadeInExample1
+
+class FadeInExample1(Scene):
+    def construct(self):
+
+        sq1 = Square(color=BLUE, fill_opacity = 0.5)
+        sq2 = Square(color=GREEN, fill_opacity = 0.5).next_to(sq1)
+        sq3 = Square(color=YELLOW, fill_opacity = 0.5).next_to(sq1,LEFT)
+        sq4 = Square(color = RED, fill_opacity = 0.5).next_to(sq1, DOWN)
+        dot = Dot(3.5*UL)
+        
+        self.add(sq1,sq2,sq3,sq4,dot)
+        self.wait()
+        self.play(FadeOut(sq1))
+        self.wait()
+        self.play(FadeOut(sq2,shift=DOWN))
+        self.wait()
+        self.add(dot)
+        self.wait()
+        self.play(FadeOut(sq3,target_position = dot))
+        self.wait()
+        self.play(FadeOut(sq4, scale = 2.0))
+        self.wait()
+```
+![fadeout gif](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b900482a-022c-452f-8c67-00972faa91ae)
+
+
