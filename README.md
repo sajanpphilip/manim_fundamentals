@@ -595,10 +595,10 @@ class FadeInExample1(Scene):
 
 </details>
 
-# Advanced Programming Techniques
+## Advanced Programming Techniques
 
-# Advanced MObjects
+## Advanced MObjects
 
-# Advanced Animations
+## Advanced Animations
 
-# Updaters
+## Updaters
