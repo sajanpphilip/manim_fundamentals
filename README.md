@@ -4,7 +4,7 @@ I have used Google Colab to bypass the Installation steps for Manim. These are v
 
 
 
-
+https://github.com/sajanpphilip/manim_fundamentals/blob/aff479009f129c6b8e40f16a7b8c11ee0c602178/assets/basic_animations/create.gif
 
 
 ## How to use Google Colab for Manim
