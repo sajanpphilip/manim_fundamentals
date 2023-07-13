@@ -554,7 +554,7 @@ class StarExample(Scene):
 </details>
 
 ## Basic Animations
-We need to try some basic animations to make the learning interesting. In this subsection, based on our knowledge on basic shapes, let us learn to use some basic animations.
+We need to try some basic animations to make the learning interesting. In this subsection, based on our knowledge on basic shapes, let us learn to use some basic animations. Note that the output of animations are videos in MP4 format. For ease of readability, all the videos are converted into GIF images with lesser frames.
 
 <details>
 <summary> Click Here and expand to learn more about Basic Animations. Here we will learn about simple animations using the VMObjects we have learnt in the previous section </summary>
