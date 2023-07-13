@@ -38,8 +38,7 @@ To start with we can create some basic Geometrical Shapes required in Math Anima
 ## 1. Lines
 ### Example 1
 
-```css
-    \\code for coloring
+```
 %%manim -qm -v WARNING LineExample1
 
 class LineExample1(Scene):
