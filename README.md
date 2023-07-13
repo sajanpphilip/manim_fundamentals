@@ -628,3 +628,7 @@ class FadeInExample1(Scene):
 ## Advanced Animations
 
 ## Updaters
+
+## Analyzing some Advanced Examples
+
+## Excercise
