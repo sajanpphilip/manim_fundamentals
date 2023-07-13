@@ -794,3 +794,6 @@ class WiggleExample1(Scene):
 ## Analyzing some Advanced Examples
 
 ## Excercise
+
+## Some Good Resources to Learn
+### 1. [FlyingFrames](https://flyingframes.readthedocs.io/en/latest/ch3.html)
