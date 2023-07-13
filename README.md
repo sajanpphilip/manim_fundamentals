@@ -621,7 +621,7 @@ class FadeInExample1(Scene):
 
 </details>
 
-## Advanced Programming Techniques
+## Incorporating Programming Techniques
 
 ## Advanced MObjects
 
