@@ -692,7 +692,7 @@ class ShowPasssingFlashExample1(Scene):
         self.wait()
 
 ```
-![flash](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/6ad4a6f3-6db1-460a-be49-be95bf521817)
+![flash](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/flash.gif)
 
 
 ## 6. Draw Boarder Then Fill
@@ -718,7 +718,7 @@ class DrawBoarderThenFillExample1(Scene):
         self.wait()
 
 ```
-![drawnfill](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/414df73d-5223-463d-b988-2de6749ff095)
+![drawnfill](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/drawnfill.gif)
 
 
 ## 7. Rotating
@@ -737,7 +737,7 @@ class RotatingExample1(Scene):
         self.wait()
 ```
 
-![rotating](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/c30512dd-62b6-44b6-bbec-e40c04df4a56)
+![rotating](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/rotating.gif)
 
 
 ## 8. Spiral In
@@ -760,7 +760,7 @@ class SpiralIn1(Scene):
 
         self.wait()
 ```
-![spiralin](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/e413f6f7-ae17-415a-890b-2b6bb4a73168)
+![spiralin](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/spiralin.gif)
 
 
 ## 9. Wiggle
@@ -778,7 +778,7 @@ class WiggleExample1(Scene):
 
         self.wait()
 ```
-![wiggle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/8c19e966-d07b-40dc-9bc6-83dab681e182)
+![wiggle](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/wiggle.gif)
 
 
 </details>
