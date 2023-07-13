@@ -2,7 +2,7 @@
 These are some tutorials which helps beginners (especially Mathematics Teachers) in Manim to start creating some basic animations. These tutorials are based on [Manim CE](https://docs.manim.community/).
 I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation. First let us familiarize ourself with these basic shapes and then we can move to Basic Animations. After that we can proceed with Complex Shapes, Complex Animations, Complex Programming Concepts and Updater Concepts. Please note that these tutorials will be updated and more theory will be added in future for better understanding.
 
-![alt text](https://github.com/sajanpphilip/manim_fundamentals/blob/main/create.GIF?raw=true)
+![](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/create.gif)
 
 ## How to use Google Colab for Manim
  Step 1. Open a New Notebook at [Google Colab](https://colab.research.google.com/)
