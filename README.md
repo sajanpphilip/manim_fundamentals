@@ -4,6 +4,7 @@ Let's start learning about VMObjects. Getting a grasp on VMObjects will help you
 
 ## How to use Google Colab for Manim
  Step 1. Open a New Notebook at [Google Colab](https://colab.research.google.com/)
+ 
  Step 2. Copy and Paste the below code in the first Code Cell.
  ```
 !sudo apt update
@@ -18,6 +19,7 @@ Let's start learning about VMObjects. Getting a grasp on VMObjects will help you
 These commands will install the Manim CE Library and all the required dependencies in the Colab Environment. Please remember that this is to be done every time you open the Notebook.
 
 Step 3. It will give some warning and "Restart Runtime" will be displayed. Click on that.
+
 Step 4. Copy and paste the below code in the second Code Cell.
 
 ```
