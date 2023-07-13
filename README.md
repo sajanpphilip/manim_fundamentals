@@ -2,6 +2,31 @@
 These are some tutorials which helps beginners (especially Mathematics Teachers) in Manim to start creating some basic animations. These tutorials are based on [Manim CE](https://docs.manim.community/).
 Let's start learning about VMObjects. Getting a grasp on VMObjects will help you to create better animations. I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation. First let us familiarize ourself with these basic shapes and then we can move to Basic Animations. After that we can proceed with Complex Shapes, Complex Animations, Complex Programming Concepts and Updater Concepts.
 
+## How to use Google Colab for Manim
+ Step 1. Open a New Notebook at https://colab.research.google.com/[Google Colab]
+ Step 2. Copy and Paste the below code in the first Code Cell.
+ ```
+!sudo apt update
+!sudo apt install libcairo2-dev ffmpeg \
+    texlive texlive-latex-extra texlive-fonts-extra \
+    texlive-latex-recommended texlive-science \
+    tipa libpango1.0-dev
+!pip install manim
+!pip install IPython --upgrade
+```
+
+These commands will install the Manim CE Library and all the required dependencies in the Colab Environment. Please remember that this is to be done every time you open the Notebook.
+
+Step 3. It will give some warning and "Restart Runtime" will be displayed. Click on that.
+Step 4. Copy and paste the below code in the second Code Cell.
+
+```
+from manim import *
+```
+Step 5. Once the Google Colab environment is ready without error, you may try the below coding examples.
+
+Fore more information , you may always refer the https://docs.manim.community/en/stable/reference.html [Manim CE Reference Manual]
+
 ## Basic VMObjects
 To start with we can create some basic Geometrical Shapes required in Math Animations. They are named as VMObjects in Manim. Only Basic Shapes are included here. You can directly copy and paste these code into Google Colab and alter the variables to see how the shapes change.
 
