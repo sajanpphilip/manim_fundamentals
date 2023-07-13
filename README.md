@@ -559,7 +559,7 @@ We need to try some basic animations to make the learning interesting. In this s
 <details>
 <summary> Click Here and expand to learn more about Basic Animations. Here we will learn about simple animations using the VMObjects we have learnt in the previous section </summary>
     
-## FadeIn
+## 1. FadeIn
 
 ### Example 1
 
@@ -588,7 +588,7 @@ class FadeInExample1(Scene):
 ```
 ![anim](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a3b27226-88c4-4407-adff-1bd0e35cb7d1)
 
-## FadeOut
+## 2. FadeOut
 
 ### Example 1
 ```
@@ -617,6 +617,167 @@ class FadeInExample1(Scene):
         self.wait()
 ```
 ![fadeout gif](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b900482a-022c-452f-8c67-00972faa91ae)
+
+## 3. Create
+
+### Example 1
+```
+%%manim -qm -v WARNING CreateExample1
+
+class CreateExample1(Scene):
+    def construct(self):
+
+        sq1 = Square(color=BLUE, fill_opacity = 0.5)
+        sq2 = Square(color=GREEN, fill_opacity = 0.5).next_to(sq1)
+        sq3 = Square(color=YELLOW, fill_opacity = 0.5).next_to(sq1,LEFT)
+        sq4 = Square(color = RED, fill_opacity = 0.5).next_to(sq1, DOWN)
+
+        self.play(Create(sq1))
+        self.play(Create(sq2))
+        self.play(Create(sq3))
+        self.play(Create(sq4))
+
+        self.wait()
+```
+![create](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/ac4085b8-1ed2-4443-84e1-7640e51930c8)
+
+## 4.  Uncreate
+
+### Example 1
+
+```
+%%manim -qm -v WARNING UnCreateExample1
+
+class UnCreateExample1(Scene):
+    def construct(self):
+
+        sq1 = Square(color=BLUE, fill_opacity = 0.5)
+        sq2 = Square(color=GREEN, fill_opacity = 0.5).next_to(sq1)
+        sq3 = Square(color=YELLOW, fill_opacity = 0.5).next_to(sq1,LEFT)
+        sq4 = Square(color = RED, fill_opacity = 0.5).next_to(sq1, DOWN)
+
+
+        self.add(sq1,sq2,sq3,sq4)
+        self.play(Uncreate(sq1))
+        self.play(Uncreate(sq2))
+        self.play(Uncreate(sq3))
+        self.play(Uncreate(sq4))
+
+        self.wait()
+```
+![uncreate](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b5a148cd-abfb-473c-8920-fef014751677)
+
+## 5. Show Passing Flash
+
+### Example 1
+```
+%%manim -qm -v WARNING ShowPasssingFlashExample1
+
+class ShowPasssingFlashExample1(Scene):
+    def construct(self):
+
+        sq1 = Square(color = BLUE)
+        sq2 = Square(color = GREEN).next_to(sq1)
+        sq3 = Square(color = GRAY).next_to(sq1,LEFT)
+        sq4 = Square(color = RED).next_to(sq1, DOWN)
+
+        self.add(sq1,sq2,sq3,sq4)
+
+        self.play(ShowPassingFlash(sq1.copy().set_color(WHITE)), run_time = 3)
+        self.play(ShowPassingFlash(sq2.copy().set_color(WHITE)), run_time = 3)
+        self.play(ShowPassingFlash(sq3.copy().set_color(WHITE)), run_time = 3)
+        self.play(ShowPassingFlash(sq4.copy().set_color(WHITE)), run_time = 3)
+
+        self.wait()
+
+```
+![flash](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/6ad4a6f3-6db1-460a-be49-be95bf521817)
+
+
+## 6. Draw Boarder Then Fill
+
+### Example 1
+
+```
+%%manim -qm -v WARNING DrawBoarderThenFillExample1
+
+class DrawBoarderThenFillExample1(Scene):
+    def construct(self):
+
+        sq1 = Square(color=BLUE, fill_opacity = 0.5)
+        sq2 = Square(color=GREEN, fill_opacity = 0.5).next_to(sq1)
+        sq3 = Square(color=YELLOW, fill_opacity = 0.5).next_to(sq1,LEFT)
+        sq4 = Square(color = RED, fill_opacity = 0.5).next_to(sq1, DOWN)
+
+        self.play(DrawBorderThenFill(sq1))
+        self.play(DrawBorderThenFill(sq2))
+        self.play(DrawBorderThenFill(sq3))
+        self.play(DrawBorderThenFill(sq4))
+
+        self.wait()
+
+```
+![drawnfill](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/414df73d-5223-463d-b988-2de6749ff095)
+
+
+## 7. Rotating
+
+### Example 1
+```
+%%manim -qm -v WARNING RotatingExample1
+
+class RotatingExample1(Scene):
+    def construct(self):
+
+        sq1 = Square(color=BLUE, fill_opacity = 0.5)
+
+        self.play(Rotating(sq1))
+
+        self.wait()
+```
+
+![rotating](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/c30512dd-62b6-44b6-bbec-e40c04df4a56)
+
+
+## 8. Spiral In
+
+### Example 1
+```
+%%manim -qm -v WARNING SpiralIn1
+
+class SpiralIn1(Scene):
+    def construct(self):
+
+        sq1 = Square(color=BLUE, fill_opacity = 0.5)
+        sq2 = Square(color=GREEN, fill_opacity = 0.5).next_to(sq1)
+        sq3 = Square(color=YELLOW, fill_opacity = 0.5).next_to(sq1,LEFT)
+        sq4 = Square(color = RED, fill_opacity = 0.5).next_to(sq1, DOWN)
+        sq5 = Square(color = GRAY, fill_opacity = 0.5)
+        sq_group = (Group(sq1,sq2,sq3,sq4,sq5))
+
+        self.play(SpiralIn(sq_group))
+
+        self.wait()
+```
+![spiralin](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/e413f6f7-ae17-415a-890b-2b6bb4a73168)
+
+
+## 9. Wiggle
+
+### Example 1
+```
+%%manim -qm -v WARNING WiggleExample1
+
+class WiggleExample1(Scene):
+    def construct(self):
+
+        sq1 = Square(color=BLUE, fill_opacity = 0.5).scale(2.0)
+
+        self.play(Wiggle(sq1))
+
+        self.wait()
+```
+![wiggle](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/8c19e966-d07b-40dc-9bc6-83dab681e182)
 
 
 </details>
