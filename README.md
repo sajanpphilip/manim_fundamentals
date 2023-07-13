@@ -47,7 +47,7 @@ class LineExample1(Scene):
       line1=Line(1*RIGHT,1*LEFT)
       self.add(line1)
 ```
-![LineExample1](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b68b6967-39f1-4bab-9108-d8f3c684f441)
+![LineExample1](https://github.com/sajanpphilip/manim_basic_tutorial/assets/104676396/b68b6967-39f1-4bab-9108-d8f3c684f441)
 
 ### Example 2
 
