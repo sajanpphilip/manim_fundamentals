@@ -3,7 +3,7 @@ These are some tutorials which helps beginners (especially Mathematics Teachers)
 Let's start learning about VMObjects. Getting a grasp on VMObjects will help you to create better animations. I have used Google Colab to bypass the Installation steps for Manim. These are very basic tutorials for beginners. For Advanced users, please refer Manim Documentation. First let us familiarize ourself with these basic shapes and then we can move to Basic Animations. After that we can proceed with Complex Shapes, Complex Animations, Complex Programming Concepts and Updater Concepts.
 
 ## How to use Google Colab for Manim
- Step 1. Open a New Notebook at https://colab.research.google.com/[Google Colab]
+ Step 1. Open a New Notebook at [Google Colab]https://colab.research.google.com/
  Step 2. Copy and Paste the below code in the first Code Cell.
  ```
 !sudo apt update
@@ -25,7 +25,7 @@ from manim import *
 ```
 Step 5. Once the Google Colab environment is ready without error, you may try the below coding examples.
 
-Fore more information , you may always refer the https://docs.manim.community/en/stable/reference.html [Manim CE Reference Manual]
+Fore more information , you may always refer the [Manim CE Reference Manual]https://docs.manim.community/en/stable/reference.html 
 
 ## Basic VMObjects
 To start with we can create some basic Geometrical Shapes required in Math Animations. They are named as VMObjects in Manim. Only Basic Shapes are included here. You can directly copy and paste these code into Google Colab and alter the variables to see how the shapes change.
