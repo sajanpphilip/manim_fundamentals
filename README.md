@@ -640,7 +640,7 @@ class CreateExample1(Scene):
 
         self.wait()
 ```
-![](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/create.gif)
+![create](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/create.gif)
 
 ## 4.  Uncreate
 
@@ -666,7 +666,7 @@ class UnCreateExample1(Scene):
 
         self.wait()
 ```
-![uncreate](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b5a148cd-abfb-473c-8920-fef014751677)
+![uncreate](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/uncreate.gif)
 
 ## 5. Show Passing Flash
 
