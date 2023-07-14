@@ -587,7 +587,7 @@ class FadeInExample1(Scene):
         self.play(FadeIn(sq4, scale = 2.0))
         self.wait()
 ```
-![anim](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/a3b27226-88c4-4407-adff-1bd0e35cb7d1)
+![FadeIn](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/FadeIn.gif)
 
 ## 2. FadeOut
 
@@ -617,7 +617,7 @@ class FadeInExample1(Scene):
         self.play(FadeOut(sq4, scale = 2.0))
         self.wait()
 ```
-![fadeout gif](https://github.com/sajanpphilip/manim_fundamentals/assets/104676396/b900482a-022c-452f-8c67-00972faa91ae)
+![FadeOut](https://github.com/sajanpphilip/manim_fundamentals/blob/main/assets/basic_animations/FadeOut.gif)
 
 ## 3. Create
 
